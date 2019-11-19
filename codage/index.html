@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>les codages</title>
+	<script src="jv.js"></script>
+	<style type="text/css">
+		body{
+			background-color: #bdc3c7;
+
+		}
+		.form{
+
+				width: 160px;
+				position: absolute;
+				top: 30%;
+				left: 48%;
+				text-transform: uppercase;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				font-size: 20px;
+				margin: 0px;
+				font-family: 'Quicksand', sans-serif;
+				color: #2980b9;
+				text-shadow: 0 0 10px #2980b9;
+			}
+			
+			
+			img{
+				width: 100%;
+				height: 200px;
+			}
+			input{
+				width: 100%;
+				overflow: hidden;
+				font-size: 20px;
+				border-bottom: 1px solid #4caf50;
+				box-shadow: 5px 10px #888888;
+				margin: 10px;
+				text-shadow: 0 0 10px #2980b9;
+			}
+			label{
+				margin-left:20px;
+			}
+	</style>
+</head>
+<body>
+
+	<form action="">
+		<img src="youcode.png">
+
+	<div class="form">
+		<p>
+			<label for="decimal">Décimal : </label> <br>
+			<input type="text" id="decimal" name="decimal" ><br>
+			<input type="button" name="submit1" value="Goo" onClick="xdecimal();">
+		</p>
+ 
+		<p>
+			<label for="hexadecimal">Hex: </label> <br>
+			<input type="text" id="hexadecimal" name="hexadecimal">
+			
+		</p>
+ 
+		<p>
+			<label for="hexadecimal">Binaire : </label> <br>
+			<input type="text" id="binaire" name="binaire">
+			
+		</p>
+
+		<p>
+			<label for="hexadecimal">Octal : </label> <br>
+			<input type="text" id="octal" name="octal">
+			
+		</p>
+	 </div>
+	</form>
+
+</body>
+</html>
+
